@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #17182f
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 110vh;
+
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+.subtitles {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Imagem de Perfil */
+
+.profile {
+    width: 104px;
+    height: 104px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Div Social Media */
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 65px;
+  width: 223px;
+  background: rgba(224, 224, 224, 0.35);
+  border-radius: 50px;
+
+  position: absolute;
+  top: 220px;
+}
+
+.social-media a {
+    background: #fff;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111E6C;
+}
+
+/* Div Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px 20px;
+    height: 100%;
+
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+}
+
+.content p {
+    color: black;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+}
+
+.img-projeto {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.desafio-button {
+    width: 100%;
+    height: 45px;
+    background-color: #0C154A;
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.link-button {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #BCBCBC;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
